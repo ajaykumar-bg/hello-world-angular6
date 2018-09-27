@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   showBgColor = true;
-  name = 'Ajay kumar bg';
+  name = 'ajay kumar bg';
 
   constructor() {
   }
