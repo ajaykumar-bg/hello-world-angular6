@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+  showBgColor = true;
   title = 'hello-world';
+
+  constructor() {
+  }
+
+  changeBGColor() {
+    this.showBgColor = !this.showBgColor;
+  }
 }
