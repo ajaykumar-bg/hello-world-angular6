@@ -1,0 +1,9 @@
+<div class="row">
+  <form [formGroup]="form">
+    <div class="form-group">
+      <label for="account-number">Account Number</label>
+      <input class="form-control" type="text" [(ngModel)]="accountNumber"
+      appInputMask formControlName="accountNumber" id="account-number">
+    </div>
+  </form>
+</div>
